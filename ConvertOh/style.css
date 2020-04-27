@@ -1,0 +1,112 @@
+/*
+#slider .item{
+    height; 400px;
+}
+
+#slide1 {
+    background: url(Home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+
+/*
+$bg-color: ;
+$font-color: #fff;
+$primary-color: #00e8d6;
+$font-size 30px;
+*/
+
+body {
+    color: #fff;
+    margin-top: 57px;
+}
+
+.navbar {
+    border-bottom: 2px solid;
+    border-bottom-color: dodgerblue;
+    opacity: 0.8;
+}
+
+#home-section {
+    background-image: url(Images/Home.jpg); 
+    background-image: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    max-height: 750px;
+    border-bottom: 3px solid dodgerblue;
+}
+
+/*
+#home-section .home-inner {
+    padding-top: 170px;
+    
+}
+*/
+
+  .dark-overlay {
+    background-color: rgb(0,0,0,0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 5px blue;
+     
+}
+
+#home-section .card-form {
+    opacity: 0.8;
+}
+
+#Currency {
+
+    
+    background-image: url(Images/Currency.jpg); 
+    background-image: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    max-height: 750px;
+    border-bottom: 3px solid dodgerblue;
+}
+
+#Area {  
+    background-image: url(Images/Area.jpg);    
+    background-image: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    max-height: 750px;
+    border-bottom: 3px solid dodgerblue;
+}
+
+#Volume {
+    background-image: url(Images/Volume.jpg);     
+    background-image: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    max-height: 750px;
+    border-bottom: 3px solid dodgerblue;
+}
+
+#Length {   
+    background-image: url(Images/Length.jpg); 
+    background-image: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    max-height: 750px;
+    border-bottom: 3px solid dodgerblue;
+}
+
+#Area, #Volume, #Currency, #Length {
+    padding-top: 15%;
+    min-height: 700px;  
+    font-size:38px;
+    border-radius: 5px;
+}
